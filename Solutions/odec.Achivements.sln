@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{455C1B85-F1D4-44D3-AF7B-80B9657796D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BB144542-26AA-4AF7-A959-AD8C40918197}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{364E80E0-9F01-40BF-9BB2-AE2AC5E5D010}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Achievement.Abst", "..\src\Server\Model\Achievement.Abst\odec.CP.Server.Model.Achievement.Abst.csproj", "{D40E8606-40C1-4FE7-8A0B-DBB9AF3E4628}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Achievement", "..\src\Server\Model\Achievement\odec.CP.Server.Model.Achievement.csproj", "{90371C1C-76C0-4987-803B-03172A74044C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D40E8606-40C1-4FE7-8A0B-DBB9AF3E4628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40E8606-40C1-4FE7-8A0B-DBB9AF3E4628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40E8606-40C1-4FE7-8A0B-DBB9AF3E4628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40E8606-40C1-4FE7-8A0B-DBB9AF3E4628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90371C1C-76C0-4987-803B-03172A74044C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90371C1C-76C0-4987-803B-03172A74044C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90371C1C-76C0-4987-803B-03172A74044C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90371C1C-76C0-4987-803B-03172A74044C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D40E8606-40C1-4FE7-8A0B-DBB9AF3E4628} = {455C1B85-F1D4-44D3-AF7B-80B9657796D4}
+		{90371C1C-76C0-4987-803B-03172A74044C} = {455C1B85-F1D4-44D3-AF7B-80B9657796D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {622D4B6C-697E-4F4B-BF3D-421E10E4DE15}
+	EndGlobalSection
+EndGlobal
