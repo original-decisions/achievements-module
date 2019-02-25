@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Achiev
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Achievement", "..\src\Server\Model\Achievement\odec.CP.Server.Model.Achievement.csproj", "{90371C1C-76C0-4987-803B-03172A74044C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achievement.Core.Tester", "..\tests\Achievement.Core.Tester\Achievement.Core.Tester.csproj", "{B665ABAB-C7E5-41B6-9085-1F0C89A6DA8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{90371C1C-76C0-4987-803B-03172A74044C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90371C1C-76C0-4987-803B-03172A74044C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90371C1C-76C0-4987-803B-03172A74044C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B665ABAB-C7E5-41B6-9085-1F0C89A6DA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B665ABAB-C7E5-41B6-9085-1F0C89A6DA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B665ABAB-C7E5-41B6-9085-1F0C89A6DA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B665ABAB-C7E5-41B6-9085-1F0C89A6DA8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D40E8606-40C1-4FE7-8A0B-DBB9AF3E4628} = {455C1B85-F1D4-44D3-AF7B-80B9657796D4}
 		{90371C1C-76C0-4987-803B-03172A74044C} = {455C1B85-F1D4-44D3-AF7B-80B9657796D4}
+		{B665ABAB-C7E5-41B6-9085-1F0C89A6DA8F} = {364E80E0-9F01-40BF-9BB2-AE2AC5E5D010}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {622D4B6C-697E-4F4B-BF3D-421E10E4DE15}
